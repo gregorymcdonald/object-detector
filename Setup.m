@@ -2,4 +2,8 @@
 curdir = fileparts(mfilename('fullpath'));
 addpath(genpath(fullfile(curdir, 'functions')));
 
-disp('Setup Complete.');
+% Load images from image list
+% ...
+
+clear;
+disp('object-detector setup complete.');
